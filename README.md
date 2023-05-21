@@ -52,6 +52,7 @@ It is going to use the following services:<br><br>
 
 There is an additional Weather service just to showcase implementation of API <br>
 Check the video to get how the app would work once it gets deployed<br>
+
 https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/500e705b-8bed-4b8a-93d4-209c98e69322
 
 
