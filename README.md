@@ -55,8 +55,11 @@ Check the video to get how the app would work once it gets deployed<br>
 
 https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/500e705b-8bed-4b8a-93d4-209c98e69322
 
+<h2>App Architecture:</h2><br>
 
- 
+![Intro](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/49621139-8fee-4131-b48c-66ad291d4b1e)
+
+
 
 <h2>Program walk-through:</h2>
 How To Create Beautiful and Useful ReadMe Documents For GitHubThe Git Guild • 51K viewsLive7:26Playlist ()Mix (50+)
