@@ -50,13 +50,18 @@ It is going to use the following services:<br><br>
 • Shopping Cart<br>
 • Order Engine (runs in the background) <br>
 
- There is an additional Weather service just to showcase implementation of API <br>
- Check the video to get how the app would work once it gets deployed<br>
- (https://www.loom.com/share/0831cc52342744dc9a7f7a0dc1b0c74f)
+There is an additional Weather service just to showcase implementation of API <br>
+Check the video to get how the app would work once it gets deployed<br>
+https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/500e705b-8bed-4b8a-93d4-209c98e69322
 
+
+ 
 
 <h2>Program walk-through:</h2>
+How To Create Beautiful and Useful ReadMe Documents For GitHubThe Git Guild • 51K viewsLive7:26Playlist ()Mix (50+)
 
+1×
+49 sec1 min 1 sec49 sec41 sec32 sec29 sec24 sec19 sec
 <p align="center">
 Launch the utility: <br/>
 <img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
