@@ -1,4 +1,4 @@
-# 1.Prerequisites
+# 1.Pre-requisites
 - Install .NET SDK
 	- [https://dotnet.microsoft.com/en-us/download/dotnet/6.0](https://dotnet.microsoft.com/en-us/download/dotnet)
 	- Make sure to install SDK ver 6, app wont work on latest version
