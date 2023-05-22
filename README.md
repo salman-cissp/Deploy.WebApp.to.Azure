@@ -62,12 +62,19 @@ https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/500e705b
 <h2>Project Walk-through:</h2>
 
 ## [1.Setting up the Compute](1.Compute/README.md)<br><br>
+We will set up the compute resources including Virtual Machines, Web App Service, Kubernetes, and Function App.
 ## [2.Setting up the Networking](2.Networks/README.md)<br><br>
+We will set up the networking infrastructure including Application Gateway Load Balancer, Traffic Manager, and Front Door. This will ensure efficient traffic management and high availability for the web app.
 ## [3.Setting up the Databases](3.Databases/README.md)<br><br>
+We will set up the databases required to support the web app, including Azure SQL, Cosmos DB, and Redis. This will enable efficient data management and scalability for the web app.
 ## [4.Setting up the Disaster Recovery](4.DR/README.md)<br><br>
+We will set up disaster recovery measures to ensure business continuity in case of any unforeseen events. This will include setting up Traffic Manager and Front Door for one web app.
 ## [5.Setting up the Policies](5.Policies/README.md)<br><br>
+We will set up policies to ensure that resources and services are used in a secure, compliant, and cost-effective manner. We will set up policies for resource tagging and resource usage restrictions
 ## [6.Managing the Costs](6.Costs/README.md)<br><br>
+We will see how to monitor and manage the costs associated with all the resources used in the project.
 ## [7.Getting Insights](7.Insights/README.md)<br><br>
+We will get full observabilty by taking an inventory of all the resources and keep a track of them to identify any potential issues or opportunities for optimization.
 
 
 
