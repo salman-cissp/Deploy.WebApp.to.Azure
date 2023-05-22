@@ -50,3 +50,4 @@
 	- delete ``catalog-vm`` allow port 8080 nsg rule<br> <br><br><br>
 	Architecture so far:<br>
 	![Pasted image 20230512194942](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/61e47d49-c873-458e-b97e-1ac63a66c003)
+	
