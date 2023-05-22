@@ -59,48 +59,15 @@ https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/500e705b
 
 ![Intro](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/49621139-8fee-4131-b48c-66ad291d4b1e)
 
+<h2>Project Walk-through:</h2>
+
+## [1.Setting up the Compute](1.Compute/README.md)<br><br>
+## [2.Setting up the Networking](2.Networks/README.md)<br><br>
+## [3.Setting up the Databases](3.Databases/README.md)<br><br>
+## [4.Setting up the Disaster Recovery](4.DR/README.md)<br><br>
+## [5.Setting up the Policies](5.Policies/README.md)<br><br>
+## [6.Managing the Costs](6.Costs/README.md)<br><br>
+## [7.Getting Insights](7.Insights/README.md)<br><br>
 
 
-<h2>Program walk-through:</h2>
-How To Create Beautiful and Useful ReadMe Documents For GitHubThe Git Guild • 51K viewsLive7:26Playlist ()Mix (50+)
 
-1×
-49 sec1 min 1 sec49 sec41 sec32 sec29 sec24 sec19 sec
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<!--
- ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-```
---!>
