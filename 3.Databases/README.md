@@ -451,6 +451,7 @@ Having connection strings in the code is very risky, to make it more secure we a
 
 
 ![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/3d3ebfce-5e69-4181-87c1-296be67137a6)
+
 		 
 		 
   
