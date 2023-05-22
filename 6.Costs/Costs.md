@@ -1,3 +1,5 @@
+# Managing the Costs
+Managing the costs is very important because it helps us avoid overspending and maximize our return on investment.
 Date of creation of first VM : 9 May 2023
 
 18 May  2023 - 9 days<br>![Pasted image 20230518203310](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/32bee36d-a6b5-4c8d-b1c1-be5fdb0fda24)
