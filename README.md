@@ -34,7 +34,7 @@ The project will be using the following services:<br><br>
 
 
 
-<br>All the way to this:<br>
+<br>and progresess all the way to this:<br>
 ![000044](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/c5c8fab2-bf16-429f-9997-54d5d7680456)
 
 
