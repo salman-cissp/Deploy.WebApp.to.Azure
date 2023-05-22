@@ -2,10 +2,9 @@
 
  
 <h2>Description</h2>
-In this project I take a .NET web app, test it locally first, then deploy it to Azure. Then add networking, security, database support, AD authentication, messaging and disaster recovery The main goal is to leverage Azure's cloud platform to enhance the app's scalability and performance.
+In this project we take a .NET web app, test it locally first, then deploy it to Azure. Then add networking, security, database support, AD authentication, messaging and disaster recovery The main goal is to leverage Azure's cloud platform to enhance the app's scalability and performance.
 <br>By deploying to Azure, we can take advantage of features like automatic load balancing and seamless integration with other Microsoft services.
-It is going to use the following services:<br><br>
-
+The project will be using the following services:<br><br>
 
 - <b>Virtual Machines</b>
 - <b>Web App Service</b>
