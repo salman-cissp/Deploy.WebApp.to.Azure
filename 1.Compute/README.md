@@ -32,7 +32,7 @@
 	- App is not fully functional, as some of the code is commented out<br><br>
 	![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/c0d19a85-286f-4641-ab3c-7fc242765037)
 
-	 - Later on, the DB would be connected by changing this values<br><br>
+	 - Later on, the DB would be connected by changing these values<br><br>
 	![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/a9e7ddd6-7f27-420a-b8a1-48c712e3d122)
   
 # 2.Setting up Catalog .NET App in Azure
@@ -112,7 +112,7 @@ This app will be installed as a docker container and managed by Kubernetes
 	![Pasted image 20230508213423](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/95356e99-17c8-4b74-bf35-069eec128f27)
 
 # 6. Setting up Order app
-This app doesn't have a front-end. It works in the back-end to process the orders sent to the shopping cart. It will be deployed as a serverless app (function). Its functionality cant be tested directly from a web browser like the other apps , so we will have to use another app called 'Postman API'
+This app doesn't have a front-end. It works in the back-end to process the orders sent to the shopping cart. It will be deployed as a serverless app (function). Its functionality cant be tested directly from a web browser like the other apps , so we will have to use a tool 'Postman API'
 
 - add 'order' app to the project
 - install 'postman api platform' (to test http trigger) app on local pc 
