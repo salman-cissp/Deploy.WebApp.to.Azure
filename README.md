@@ -65,7 +65,7 @@ https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/500e705b
 ## [1.Setting up the Compute](1.Compute/README.md)<br><br>
 We will set up the compute resources including Virtual Machines, Web App Service, Kubernetes, and Function App.
 ## [2.Setting up the Networking](2.Networks/README.md)<br><br>
-We will set up the networking infrastructure including Application Gateway Load Balancer, Traffic Manager, and Front Door. This will ensure efficient traffic management and high availability for the web app.
+We will set up the networking infrastructure including Virtual Networks, Network Security Groups and Application Gateway Load Balancer. This will ensure efficient traffic management and high availability for the web app.
 ## [3.Setting up the Databases](3.Databases/README.md)<br><br>
 We will set up the databases required to support the web app, including Azure SQL, Cosmos DB, and Redis. This will enable efficient data management and scalability for the web app.
 ## [4.Setting up the Disaster Recovery](4.DR/README.md)<br><br>
