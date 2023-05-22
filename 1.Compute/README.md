@@ -133,3 +133,4 @@ This app doesn't have a front-end. It works in the back-end to process the order
   
 # 7. How to choose Compute Type
 ![Pasted image 20230510171249](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/45ac28ad-68cb-4871-8555-f3f42b88f0e0)
+
