@@ -22,3 +22,4 @@ We would need to set up policies to ensure that resources and services are used 
 
 	- test<br>
 	![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/15ea013d-5ade-430b-8dbf-29dc23e392bc)
+	
