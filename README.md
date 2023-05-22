@@ -15,7 +15,7 @@ The project will be using the following services:<br><br>
 - <b>Azure SQL</b>
 - <b>Cosmos DB</b>
 - <b>Redis</b>
-- <b>Event Gris</b>
+- <b>Event Grid</b>
 - <b>Azure AD Authentication</b>
 - <b>Key Vault</b>
 - <b>Traffic Manager</b>
