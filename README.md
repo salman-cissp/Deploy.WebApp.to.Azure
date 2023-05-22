@@ -50,8 +50,9 @@ The project will be using the following services:<br><br>
 • Shopping Cart<br>
 • Order Engine (runs in the background) <br>
 
-There is an additional Weather service just to showcase implementation of API <br>
-Check the video to get how the app would work once it gets deployed<br>
+There is an additional Weather service just to showcase implementation of API <br> <br>
+
+Check the video to get an idea how the app would work once it gets deployed:<br>
 
 https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/500e705b-8bed-4b8a-93d4-209c98e69322
 
