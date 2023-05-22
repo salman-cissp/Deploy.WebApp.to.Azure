@@ -107,3 +107,4 @@ Final architecture:
 
 
 ![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/2b05fd1a-f332-4d95-8e6b-c3253331b6e7)
+
