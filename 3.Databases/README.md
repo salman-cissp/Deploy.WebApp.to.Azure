@@ -2,7 +2,7 @@
 ![Pasted image 20230513112421](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/09da912f-3fd7-492c-a6ff-b248f7fbf72f)
 
 # 1.Setting up the SQL Server
-- create new sql db ``readitdbserver-s
+- create new sql db `readitdbserver-s`
 - enable public access 
 - Connect to catalog app
 	- add the db connection string in appsettings.json<br>
@@ -43,7 +43,7 @@
 	 ![Pasted image 20230513202533](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/4b15da43-6257-4d3f-8b66-c6a24231c910)
 
 	 - another another layer of security by setting service end point between the db and catalog vm
-		 - ``readit-app-vnet`` to ``default`` subnet of ``catalog-vm``<br>
+		 - `readit-app-vnet` to `default` subnet of `catalog-vm`<br>
 		 ![Pasted image 20230513202955](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/22b631bc-156e-43e0-92df-8ffcf2f10219)
 		 
 		 - in db, add existing vnet in firewall<br>
@@ -67,7 +67,7 @@
 ![Pasted image 20230514110918](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/f73ebc4e-a6cf-456b-8441-cafdbb3d6c4d)
 
 	
-		- check inventory app @ ``https://readit-inventory-s.azurewebsites.net/<br>
+		- check inventory app : `https://readit-inventory-s.azurewebsites.net/`<br>
 	![Pasted image 20230514111234](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/defc833c-5ec2-4d3c-9512-c1655b44c607)
 
 		- this errror is because of this:<br>
@@ -97,13 +97,13 @@
 ![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/16e43c24-d3c5-4955-aecf-076b2175c913)
 
 - create new cosmos db
-	- ``readit-cosmos-db-s
+	- `readit-cosmos-db-s`
 	- create new database & container
-		- ``readit-orders
-		- ``orders<br>
+		- `readit-orders`
+		- `orders`<br>
 		![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/ca14c1d4-e8b3-4b34-a1dc-81d1b32c0ac6)
 
-	- add sample items to ``orders`` using data explorer<br>
+	- add sample items to `orders` using data explorer<br>
 	![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/112fe127-3fca-49c8-8bce-685021dcf76f)
 
 	- test by running sql command<br> ![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/2b030c8d-d8c3-4be7-98a3-66b191a861fc)
@@ -145,9 +145,9 @@
   
 # 3.Setting up the Storage Account
 - create new account
-	- ``` ordersreadit0523 ```
+	- ` ordersreadit0523 `
 	- create new container
-		- ```neworders```
+		- `neworders`
 		
 # 4.Setting up the Redis
 Redis is a tool that helps make web applications faster by storing frequently used data in memory. It can also help different parts of an application talk to each other quickly. Think of it like a really fast and efficient way to store and retrieve information for your app.
@@ -155,7 +155,7 @@ Redis is a tool that helps make web applications faster by storing frequently us
 Setup for the shopping cart. When items are added to the cart from catalog, it will be stored in the redis
 
 - create
-	- ``readitredis0523
+	- `readitredis0523`
 
 Connect to Catalog:
 - VS Code
@@ -175,7 +175,7 @@ Connect to Catalog:
 		
 		
  - Publish to azure
-	- web server on ``catalog-vm
+	- web server on `catalog-vm`
 		- stop server
 		- copy published files from VS code to catalog folder 
 		- start server
@@ -188,13 +188,13 @@ Connect to Cart:
 	- cart
 		- add connection string for redis & DB in 'appsettings.json'<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/5c642d43-d654-42e0-881e-0247e8ae6d52)
 
-		- get 'Function Url' from ' ``ProcessOrderCosmos`` from function app and add to ``OrderFunctionUrl`<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/98bc1fb8-17fc-4427-a453-7ecc537503f2)
+		- get 'Function Url' from ' `ProcessOrderCosmos` from function app and add to `OrderFunctionUrl`<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/98bc1fb8-17fc-4427-a453-7ecc537503f2)
 
 		- uncomment code in 'index.cshtml.cs'<br>
 	 ![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/8b5988b2-f054-4a54-83a1-2c98538f7f98)
 
  - Placing Order
-	 - go to function ``ProcessOrderCosmos
+	 - go to function `ProcessOrderCosmos`
 		 - check logs while placing order from the cart 'Code+Text'<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/85532040-5bc3-4e27-850b-4d848295846f)
 
 		 - place order from the local code in VS Code<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/4e25a94b-a846-4d2d-830c-ed30a29e161d)
@@ -209,7 +209,7 @@ Connect to Cart:
 			 - deploy to ACR<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/161283a8-cf4e-4b55-b11d-636a2f670ee9)
 
 			 - deploy to AKS
-				 - ``kubectl apply -f deployment.yam
+				 - `kubectl apply -f deployment.yam`
 				 - test<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/39cd9528-57f1-4eef-ad11-2d47c8cdd915)
 ![Pasted image 20230515104915](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/bc75c79c-d79e-4a2f-a0c4-e795d6018e66)
 
@@ -226,7 +226,7 @@ Connect to Cart:
 
 					 
 					 
-					 - check the logs in ``ProcessOrderCosmos`` function<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/5b8d4293-c3ca-4d0c-8668-268574daa06e)
+					 - check the logs in `ProcessOrderCosmos` function<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/5b8d4293-c3ca-4d0c-8668-268574daa06e)
 
 				- so we now have the catalog, inventory , cart and the order function all working together
 				- The most important part is that we successfully connected redis to catalog and cart app<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/cce54716-1752-477d-9d46-d73e61357632)
@@ -243,18 +243,18 @@ A Messaging service in Azure helps different parts of an application talk to eac
 Instead of activating function though http trigger(public & synchronous), we use Event Grid(much safer & asynchronous) 
 - Event Grid |System Topics
 	- create
-		- ``orders-topic``<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/2df33c04-8260-4507-be96-d876f29ea521)
+		- `orders-topic`<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/2df33c04-8260-4507-be96-d876f29ea521)
 
-		- in ``order`` app replace ``ProcessOrderCosmos.cs`` with new one which supports event grid
+		- in `order` app replace `ProcessOrderCosmos.cs` with new one which supports event grid
 		- add event grid support<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/e2774939-222f-4818-bd7b-545d38015c08)
 
-		- get connection string from ``ordersreadit0523`` storage account<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/80ec3982-a8e4-44d4-b5ff-45808e8c9415)
+		- get connection string from `ordersreadit0523` storage account<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/80ec3982-a8e4-44d4-b5ff-45808e8c9415)
 
-		- paste it in ``local.settings.json``<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/b075bfc3-9b1d-4250-8ce6-34fc69d7cb71)
+		- paste it in `local.settings.json`<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/b075bfc3-9b1d-4250-8ce6-34fc69d7cb71)
 
-		- copy connection string from ``readitfuncstorage0523`` storage account and paste into new entry in ``local.settings.json`` <br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/9c76e6d8-eafe-417c-8c28-c41c40ef21ef)
+		- copy connection string from `readitfuncstorage0523` storage account and paste into new entry in `local.settings.json` <br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/9c76e6d8-eafe-417c-8c28-c41c40ef21ef)
 
-		- deploy this function to ``readitfunctionapp0523``<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/9d17f005-a470-4be6-b2e8-f3dc1b98d020)
+		- deploy this function to `readitfunctionapp0523`<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/9d17f005-a470-4be6-b2e8-f3dc1b98d020)
 
 		- upload settings<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/7c4cd58f-3193-4775-a8c8-b7777893d519)
 
@@ -266,7 +266,7 @@ Instead of activating function though http trigger(public & synchronous), we use
 
 			 
 		- connect cart app to storage account so that when placing order the order will be saved in the storage account
-			- replace ``index.cshtml.cs`` with new one in the cart app
+			- replace `index.cshtml.cs` with new one in the cart app
 			- we dont need OrderFuntionUrl anymore<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/59bf7360-94bd-41f1-a852-8601b0784901)
 
 			- replace it with storage account connection string<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/8c12a9e0-17cd-4a83-a125-804044d2b2ee)
@@ -321,16 +321,16 @@ Azure AD Licences<br>![Pasted image 20230516110305](https://github.com/salman-ci
 
 
 We are going to assign managed identity to inventory app and use it to connect to azure sql db
-- turn on system managed identity for ``readit-inventory-s`` to register with azure ad <br>![Pasted image 20230516112913](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/02f4b7a0-343d-4917-8e0d-acd233e58df5)
+- turn on system managed identity for `readit-inventory-s` to register with azure ad <br>![Pasted image 20230516112913](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/02f4b7a0-343d-4917-8e0d-acd233e58df5)
 
 -  configure ad admin for sql server<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/a568947f-4d13-4219-834a-cccd4526e8de)
 
 - set a user as admin<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/868099fd-7bb7-4eaa-8d7c-31b2be7d9bff)
 
-- run sql commands against ``readit-db
+- run sql commands against `readit-db`
 	-  create a new user ang grant it read, write and admin permissions<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/d947cae1-bc37-444a-82f3-79f516ad77f3)
 
-	- in ``readit-inventory-s`` remove credentials from connection string as we have set managed identity<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/15869368-3b40-45b7-9d85-dc40bec1ba2a)
+	- in `readit-inventory-s` remove credentials from connection string as we have set managed identity<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/15869368-3b40-45b7-9d85-dc40bec1ba2a)
 ![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/e51ba454-9136-4a87-8bb1-e7d859935cfe)
 
 	 
@@ -346,7 +346,7 @@ We are going to assign managed identity to inventory app and use it to connect t
 	- auth uses OAuth & JWT<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/43dfa022-b030-40ae-8097-e07cb45e9a7e)
 
 
-	- remove access restrictions from ``readit-inventory-s``<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/ed8a2d51-1f1a-498e-aabf-4e9e323f98b0)
+	- remove access restrictions from `readit-inventory-s`<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/ed8a2d51-1f1a-498e-aabf-4e9e323f98b0)
 	![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/6dd1269d-89dc-48b2-b0a4-0edaf9667f86)
 
 	- register this app in azure ad<br>![download](https://github.com/salman-cissp/Deploy.WebApp.to.Azure/assets/134168108/245a8dff-1d26-400a-af77-8dea94c2dfd1)
