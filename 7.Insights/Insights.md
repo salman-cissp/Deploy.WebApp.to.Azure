@@ -1,3 +1,6 @@
+ # Getting Insights
+We need to keep an eye on all the resources that we provisioned. We need to have a full obervabilty by havig inventiry of all the resources to keep track of what resources we have, how they're being used, and to identify any potential issues or opportunities for optimization. This information can help us make informed decisions about how to allocate resources, improve performance, and reduce costs.
+We will be using two free 3rd tools to acieve that
  -  run the ps script to get a complete inventory
 	- https://github.com/scautomation/Azure-Inventory-Workbook
  - check under the Workbooks in Monitor<br>
